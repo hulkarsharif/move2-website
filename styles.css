@@ -371,7 +371,7 @@ body {
 }
 .logo {
     vertical-align: middle;
-    width: 18.2rem; /* 182px / 10px = 18.2rem */
+    /* width: 18.2rem;  */
     display: inline-block;
 }
 
@@ -631,19 +631,29 @@ textarea {
 }
 
 .submit {
-    width: calc((100% - 20%) / 2 * 0.75);
+    width: 28.6rem;
     border-radius: 1rem;
     border: none;
     background: #377dff;
+
     vertical-align: middle;
     height: 6.6rem;
-}
+    color: var(--bg-4, #fff);
 
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+.form-submit {
+    text-align: right;
+}
 label {
     display: inline-block;
     vertical-align: middle;
-    width: calc((100% - 20%) / 2 * 1.25);
-    margin-right: 20%;
+    text-align: left;
+    width: calc(100% - 28.6rem);
+    /* margin-right: 20%; */
 }
 
 #checkboxAggree {
@@ -667,8 +677,8 @@ label {
 .footer__brand {
     display: inline-block;
     vertical-align: top;
-    width: calc((100% - 32rem) * 0.3);
-    margin-right: 14.3rem; /* 143px / 10px = 14.3rem */
+    width: calc((100% - 38rem) * 0.35);
+    margin-right: 14rem; /* 143px / 10px = 14.3rem */
 }
 
 .footer__heading {
@@ -686,8 +696,8 @@ label {
 .footer__portfolio {
     display: inline-block;
     vertical-align: top;
-    width: calc((100% - 32rem) * 0.175);
-    margin-right: 9rem; /* 80px / 10px = 8rem */
+    width: calc((100% - 38rem) * 0.65 / 4);
+    margin-right: 8rem; /* 80px / 10px = 8rem */
 }
 
 .footer__logo {

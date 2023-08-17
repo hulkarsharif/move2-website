@@ -3,8 +3,8 @@
     .hero-section,
     .form-section,
     .footer-section {
-        padding-right: 75px;
-        padding-left: 75px;
+        padding-right: 7.5rem;
+        padding-left: 7.5rem;
     }
 }
 
@@ -12,12 +12,12 @@
     html {
         font-size: 50%;
     }
-    .navigation,
+
     .hero-section,
     .form-section,
     .footer-section {
-        padding-top: 75px;
-        padding-bottom: 75px;
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
     }
 }
 
@@ -26,8 +26,8 @@
     .hero-section,
     .form-section,
     .footer-section {
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 5rem;
+        padding-left: 5rem;
     }
     .navigation-actions {
         display: none;
@@ -37,6 +37,12 @@
         display: block;
         width: 100%;
         margin: 0;
+    }
+    .footer__homes,
+    .footer__pages,
+    .footer__blog,
+    .footer__portfolio {
+        width: calc((100% - 24rem) / 4);
     }
 }
 
@@ -64,5 +70,61 @@
     }
     .form-box {
         width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation,
+    .hero-section,
+    .form-section,
+    .footer-section {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+    }
+    .logo {
+        height: 4.4rem;
+    }
+    .hero-section__text h2 {
+        font-size: 5rem;
+    }
+    .form-section {
+        border-bottom: 1px solid hsl(219, 14%, 88%);
+    }
+    .hero-left,
+    .hero-middle,
+    .hero-right {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+    .hero-middle {
+        margin-bottom: 3.2rem;
+    }
+    .form-box {
+        width: 100%;
+    }
+    .submit {
+        display: block;
+    }
+    #textAggree {
+        margin-bottom: 3.2rem;
+    }
+    .footer__homes,
+    .footer__pages,
+    .footer__blog,
+    .footer__portfolio {
+        width: calc((100% - 8rem) / 2);
+    }
+    .footer__blog {
+        margin-right: 0;
+    }
+    .footer__homes,
+    .footer__pages,
+    .footer__blog,
+    .footer__portfolio .footer__text {
+        font-size: 1.6rem;
+    }
+    .footer__heading {
+        font-size: 2rem;
     }
 }

@@ -1,0 +1,130 @@
+@media (max-width: 1100px) {
+    .navigation,
+    .hero-section,
+    .form-section,
+    .footer-section {
+        padding-right: 7.5rem;
+        padding-left: 7.5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 50%;
+    }
+
+    .hero-section,
+    .form-section,
+    .footer-section {
+        padding-top: 7.5rem;
+        padding-bottom: 7.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .navigation,
+    .hero-section,
+    .form-section,
+    .footer-section {
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+    .navigation-actions {
+        display: none;
+    }
+
+    .footer__brand {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .footer__homes,
+    .footer__pages,
+    .footer__blog,
+    .footer__portfolio {
+        width: calc((100% - 24rem) / 4);
+    }
+}
+
+@media (max-width: 800px) {
+    .text-md {
+        width: 80%;
+    }
+
+    .hero-left,
+    .hero-middle,
+    .hero-right {
+        width: calc((100% - 2.4rem) / 2);
+    }
+    .hero-left,
+    .hero-middle {
+        margin-right: 0;
+    }
+    .hero-left {
+        margin-bottom: 3.2rem;
+    }
+
+    .hero-right {
+        display: block;
+        margin: 0 auto;
+    }
+    .form-box {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation,
+    .hero-section,
+    .form-section,
+    .footer-section {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+    }
+    .logo {
+        height: 4.4rem;
+    }
+    .hero-section__text h2 {
+        font-size: 5rem;
+    }
+    .form-section {
+        border-bottom: 1px solid hsl(219, 14%, 88%);
+    }
+    .hero-left,
+    .hero-middle,
+    .hero-right {
+        width: 100%;
+        display: block;
+        margin-right: 0;
+    }
+    .hero-middle {
+        margin-bottom: 3.2rem;
+    }
+    .form-box {
+        width: 100%;
+    }
+    .submit {
+        display: block;
+    }
+    #textAggree {
+        margin-bottom: 3.2rem;
+    }
+    .footer__homes,
+    .footer__pages,
+    .footer__blog,
+    .footer__portfolio {
+        width: calc((100% - 8rem) / 2);
+    }
+    .footer__blog {
+        margin-right: 0;
+    }
+    .footer__homes,
+    .footer__pages,
+    .footer__blog,
+    .footer__portfolio .footer__text {
+        font-size: 1.6rem;
+    }
+    .footer__heading {
+        font-size: 2rem;
+    }
+}

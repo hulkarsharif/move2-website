@@ -381,7 +381,7 @@ body {
 }
 
 .navigation {
-    padding: 5.2rem 10rem; /* 52px / 10px = 5.2rem, 100px / 10px = 10rem */
+    padding: 5.2rem 10rem;
 }
 
 .navigation-actions {
@@ -416,7 +416,7 @@ body {
     cursor: pointer;
     line-height: 2.4rem;
     font-size: 1.8rem; /* 18px / 10px = 1.8rem */
-    border-radius: 1rem; /* 10px / 10px = 1rem */
+    border-radius: 1.2rem; /* 10px / 10px = 1rem */
     display: inline-block;
     vertical-align: middle;
     padding-left: 3.3rem; /* 33px / 10px = 3.3rem */

@@ -577,7 +577,7 @@ input {
     width: calc((100% - 3.3rem) / 2);
     height: 6.6rem; /* 66px / 10px = 6.6rem */
     border-radius: 1rem;
-    border: 0.2rem solid var(--bg-3, #fafbfc);
+    border: 0.2rem solid var(--bg-3, hsl(219, 14%, 90%));
 }
 
 input::placeholder {
@@ -668,26 +668,20 @@ label {
     padding: 12rem 10rem;
 }
 
-.footer__content {
-    display: flex;
-    /* justify-content: space-between; */
-    margin-bottom: 8rem; /* 80px / 10px = 8rem */
-}
-
 .footer__brand {
     display: inline-block;
     vertical-align: top;
-    width: calc((100% - 38rem) * 0.35);
-    margin-right: 14rem; /* 143px / 10px = 14.3rem */
+    width: calc((100% - 36rem) * 0.35);
+    margin-right: 12rem;
 }
 
 .footer__heading {
     color: #323b4b;
-    padding-bottom: 2.7rem; /* 27px / 10px = 2.7rem */
+    padding-bottom: 2.8rem;
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 2.9rem; /* 29px / 10px = 2.9rem */
+    line-height: 2.9rem;
 }
 
 .footer__homes,
@@ -696,28 +690,39 @@ label {
 .footer__portfolio {
     display: inline-block;
     vertical-align: top;
-    width: calc((100% - 38rem) * 0.65 / 4);
-    margin-right: 8rem; /* 80px / 10px = 8rem */
+    width: calc((100% - 36rem) * 0.65 / 4);
+}
+.footer__homes,
+.footer__pages,
+.footer__blog {
+    margin-right: 8rem;
 }
 
+.footer__homes,
+.footer__pages,
+.footer__blog,
+.footer__portfolio,
 .footer__logo {
-    padding-bottom: 2.7rem; /* 27px / 10px = 2.7rem */
+    padding-bottom: 2.8rem;
 }
 
+.footer-social__icons {
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
 .footer__text {
     color: var(--text-3, #8a94a6);
     font-size: 2rem;
-    font-style: normal;
+    display: block;
+
     font-weight: 500;
     line-height: 3.5rem;
 }
-
+.footer__brand p {
+    line-height: 3.5rem;
+}
 .text-center {
     color: var(--text-3, #8a94a6);
-    width: 44.1rem; /* 441px / 10px = 44.1rem */
+    width: 44.1rem;
     font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 2.2rem; /* 22px / 10px = 2.2rem */
-    vertical-align: middle;
 }

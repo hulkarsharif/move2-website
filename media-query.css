@@ -1,4 +1,7 @@
 @media (max-width: 1100px) {
+    html {
+        font-size: 50%;
+    }
     .navigation,
     .hero-section,
     .form-section,
@@ -9,10 +12,6 @@
 }
 
 @media (max-width: 1000px) {
-    html {
-        font-size: 50%;
-    }
-
     .hero-section,
     .form-section,
     .footer-section {
@@ -42,7 +41,7 @@
     .footer__pages,
     .footer__blog,
     .footer__portfolio {
-        width: calc((100% - 24rem) / 4);
+        width: calc((100% - 27rem) / 4);
     }
 }
 
@@ -54,9 +53,9 @@
     .hero-left,
     .hero-middle,
     .hero-right {
-        width: calc((100% - 2.4rem) / 2);
+        width: calc((100% - 3.2rem) / 2);
     }
-    .hero-left,
+    /* .hero-left, */
     .hero-middle {
         margin-right: 0;
     }
@@ -73,22 +72,27 @@
     }
 }
 
+/*  600 */
+
 @media (max-width: 600px) {
+    #header {
+        padding: 4.6rem 1.8rem 4.6rem 2rem;
+    }
     .navigation,
     .hero-section,
     .form-section,
     .footer-section {
-        padding-right: 3.5rem;
-        padding-left: 3.5rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
     .logo {
-        height: 4.4rem;
+        width: 13rem;
     }
     .hero-section__text h2 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .form-section {
-        border-bottom: 1px solid hsl(219, 14%, 88%);
+        border-bottom: 0.1rem solid hsl(219, 14%, 88%);
     }
     .hero-left,
     .hero-middle,
@@ -98,7 +102,7 @@
         margin-right: 0;
     }
     .hero-middle {
-        margin-bottom: 3.2rem;
+        margin-bottom: 2.8rem;
     }
     .form-box {
         width: 100%;
@@ -107,23 +111,38 @@
         display: block;
     }
     #textAggree {
-        margin-bottom: 3.2rem;
+        width: 100%;
+
+        margin-bottom: 2.5rem;
     }
+
+    .name,
+    .email,
+    .company,
+    .contact {
+        margin-bottom: 2.5rem;
+        display: block;
+        width: 100%;
+    }
+
     .footer__homes,
     .footer__pages,
     .footer__blog,
     .footer__portfolio {
         width: calc((100% - 8rem) / 2);
+        margin-bottom: 3.2rem;
     }
-    .footer__blog {
+    .footer__pages {
         margin-right: 0;
     }
-    .footer__homes,
+    /* .footer__homes,
     .footer__pages,
     .footer__blog,
-    .footer__portfolio .footer__text {
+    .footer__portfolio,
+    .footer__text {
         font-size: 1.6rem;
-    }
+        margin-bottom: 0;
+    } */
     .footer__heading {
         font-size: 2rem;
     }
